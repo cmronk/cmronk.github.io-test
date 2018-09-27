@@ -9,7 +9,7 @@ const Cards = (props) => {
                     <Col sm="4">
                         <Card>
                             <CardBody>
-                                <CardTitle>Mentor Up</CardTitle>
+                                <CardTitle><i className="fa fa-arrow-up" aria-hidden="true"></i> Mentor Up</CardTitle>
                                 <CardText>Mentor pairing service geared towards forwarding women in tech.</CardText>
                                 <Button color="secondary">Learn more</Button>
                             </CardBody>
@@ -18,7 +18,7 @@ const Cards = (props) => {
                     <Col sm="4">
                         <Card>
                             <CardBody>
-                                <CardTitle>Storyboard Adventures</CardTitle>
+                                <CardTitle><i className="fa fa-book" aria-hidden="true"></i> Storyboard Adventures</CardTitle>
                                 <CardText>Storybuilding app that allows users to collaborate.</CardText>
                                 <Button color="secondary">Learn more</Button>
                             </CardBody>
@@ -27,7 +27,7 @@ const Cards = (props) => {
                     <Col sm="4">
                         <Card>
                             <CardBody>
-                                <CardTitle>VIKI</CardTitle>
+                                <CardTitle><i className="fa fa-music" aria-hidden="true"></i> VIKI</CardTitle>
                                 <CardText>On screen piano keyboard with YouTube tutorials to follow along with.</CardText>
                                 <Button color="secondary">Learn more</Button>
                             </CardBody>

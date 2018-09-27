@@ -1,28 +1,17 @@
 .App {
   text-align: center;
+  font-family: 'Encode Sans Condensed', sans-serif;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.card-body {
+  /* border-radius: 0.5rem; */
+  background:#94BFBE;
+  color: #857C8D;
+
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
+.intro .jumbotron{
+  background:#94BFBE;
   color: white;
-}
-
-.App-title {
-  font-size: 1.5em;
-}
-
-.App-intro {
-  font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+  border-radius: 0
 }
