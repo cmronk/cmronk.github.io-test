@@ -1,32 +1,35 @@
-/* 303633-8be8cb-7ea2aa-888da7-9c7a97 */
 .App {
   text-align: center;
   font-family: 'Encode Sans Condensed', sans-serif;
 }
 
-.card {
-  border-radius: 0.5rem;
-}
-.card-body {
-  color: #cecdc8;
-}
-.card-title {
-  background:#24272d;
-  color: #cecdc8;
-  padding: 10px;
+/* Nav */
 
-}
-
+/* Heading */
 .intro .jumbotron{
-  background:#303633;
   border-radius: 0;
-  background: url("./assets/background.jpeg");
+  /* background: url("./assets/background.jpeg"); */
+  background: url("https://images.pexels.com/photos/691710/pexels-photo-691710.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-repeat: no-repeat;
 }
-
 #intro {
   padding: 100px;
-  margin: 30px;
   background: white;
   opacity: 0.8;
+}
+
+/* Portfolio */
+.card {
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+}
+.card-body img {
+  opacity: 0.7;
+}
+.card-title {
+  background:#353a3f;
+  color: #cecdc8;
+  padding: 15px;
+
 }
 
