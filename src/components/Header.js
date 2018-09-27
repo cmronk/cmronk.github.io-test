@@ -1,13 +1,17 @@
 import React from 'react';
-import { Jumbotron, Button } from 'reactstrap';
+import { Jumbotron, Button, Container } from 'reactstrap';
 
 const Header = (props) => {
     return (
         <div className="intro">
             <Jumbotron>
-                <h1 className="display-3">Christine M Ronk</h1>
-                <p className="lead">Full Stack Web Developer armed with coffee</p>
-                <Button color="secondary">Caffeinate! <i className="fa fa-coffee" aria-hidden="true"></i></Button>
+                <Container id="intro">
+                    <h2>About Me</h2>
+                    <hr />
+                    <p>Hello, I am a Full Stack Web Developer with a focus on serving people. Armed with coffee, I aim to
+                            solve real world problems, as well as develop and entertain with creativity.</p>
+
+                </Container>
             </Jumbotron>
         </div>
     )

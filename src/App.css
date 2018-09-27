@@ -1,17 +1,32 @@
+/* 303633-8be8cb-7ea2aa-888da7-9c7a97 */
 .App {
   text-align: center;
   font-family: 'Encode Sans Condensed', sans-serif;
 }
 
+.card {
+  border-radius: 0.5rem;
+}
 .card-body {
-  /* border-radius: 0.5rem; */
-  background:#94BFBE;
-  color: #857C8D;
+  color: #cecdc8;
+}
+.card-title {
+  background:#24272d;
+  color: #cecdc8;
+  padding: 10px;
 
 }
 
 .intro .jumbotron{
-  background:#94BFBE;
-  color: white;
-  border-radius: 0
+  background:#303633;
+  border-radius: 0;
+  background: url("./assets/background.jpeg");
 }
+
+#intro {
+  padding: 100px;
+  margin: 30px;
+  background: white;
+  opacity: 0.8;
+}
+
