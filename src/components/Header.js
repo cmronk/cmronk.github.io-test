@@ -4,7 +4,7 @@ import { Jumbotron, Button, Container } from 'reactstrap';
 const Header = (props) => {
     return (
         <div className="intro">
-            <Jumbotron>
+            <Jumbotron id="about">
                 <Container id="intro">
                     <h2>About Me</h2>
                     <hr />

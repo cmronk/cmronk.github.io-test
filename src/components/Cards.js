@@ -4,7 +4,7 @@ import { Container, Card, CardBody, CardTitle, Button, ButtonGroup, Row, Col } f
 const Cards = (props) => {
     return (
         <div>
-            <Container>
+            <Container id="portfolio">
                 <Row>
                     <Col sm="12">
                         <h3>Group Projects</h3>
@@ -14,7 +14,7 @@ const Cards = (props) => {
             <Row>
                 <Col lg="4" md="6">
                     <Card>
-                        <CardTitle><i className="fa fa-arrow-up" aria-hidden="true"></i> Mentor Up</CardTitle>
+                        <CardTitle><i className="fa fa-handshake-o" aria-hidden="true"></i> Mentor Up</CardTitle>
                         <CardBody>
                             <img src={require('../assets/mentorupdemo.gif')} height="200px" width="250px" alt="books" />
                                 <p className="app-info">MERN app designed to further women in tech by promoting mentorship, community and learning.</p>
@@ -88,7 +88,7 @@ const Cards = (props) => {
                 </Col>
                 <Col lg="4" md="6">
                     <Card>
-                        <CardTitle><i className="fa fa-repeat" aria-hidden="true"></i> Giphy</CardTitle>
+                        <CardTitle><i className="fa fa-file-video-o" aria-hidden="true"></i> Giphy</CardTitle>
                         <CardBody>
                             <img src={require('../assets/giphy.gif')} height="200px" width="250px" alt="books" />
                                 <p className="app-info">Fetch Gifs from the catergories or create your own. Brought to you by the Giphy API.</p>    
