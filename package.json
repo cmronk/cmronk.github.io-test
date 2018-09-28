@@ -4,13 +4,17 @@
   "private": true,
   "dependencies": {
     "bootstrap": "^4.1.3",
+    "gh-pages": "^2.0.0",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
     "react-fontawesome": "^1.6.1",
     "react-scripts": "1.1.5",
     "reactstrap": "^6.4.0"
   },
+  "homepage": "https://cmronk.github.io/reactPortfolio/",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
