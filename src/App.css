@@ -5,6 +5,10 @@
 }
 
 /* Nav */
+/* Contact */
+.navbar-brand, #intro h2, #portfolio {
+  font-family: 'Dancing Script', cursive;
+}
 
 /* Heading */
 .intro .jumbotron{
@@ -20,10 +24,6 @@
 }
 #intro h4 {
   margin-top: 50px;
-}
-.about-info .card {
-  padding: 5%;
-  margin: 25px 10px 25px 10px;
 }
 #headshot {
   border: 5px solid #353a3f;
@@ -41,7 +41,9 @@
   box-shadow: 0 6px 30px 5px rgba(0, 0, 0, 0.4);
 }
 .card:hover {
-  color:black;
+  color:  rgba(5, 5, 5, 1);
+  background-color: rgba(255,255,255,1);  
+  font-weight: bolder;
 }
 .card-body img {
   opacity: 0.7;
@@ -57,7 +59,8 @@ img:hover {
   filter: blur(2px);
 }
 .app-info {
-  margin-top: -3rem;
+  margin-top: -8rem;
+  padding-bottom: 6rem;
 }
 .portfolio {
   background:#353a3f;
@@ -65,3 +68,4 @@ img:hover {
   width: 100%;
   padding: 15px;
 }
+
