@@ -14,14 +14,13 @@ const Header = (props) => {
                         </Col>
                     </Row>
                     <Row>
-                        <Col sm="8">
-                            <h4>I am a Full Stack Web Developer with a focus on serving people. Armed with coffee, I aim to
-                            solve real world problems, as well as develop and entertain with creativity.</h4>
+                        <Col xs="8">
+                            <p>I am a Full Stack Web Developer with a focus on serving people. Armed with coffee, I aim to
+                            solve real world problems, as well as develop and entertain with creativity.</p>
                         </Col>
-                        <Col sm="4">
-                            <img src={require('../assets/headshot.JPG')} height="250px" width="200px" id="headshot" alt="headshot" />
+                        <Col xs="4">
+                            <img src={require('../assets/headshot.JPG')} height="200px" width="150px" id="headshot" alt="headshot" />
                         </Col>
-
                     </Row>
                 </Container>
             </Jumbotron>
