@@ -8,6 +8,7 @@
 
 /* Heading */
 .intro .jumbotron{
+  margin-bottom: 0;
   border-radius: 0;
   /* background: url("./assets/background.jpeg"); */
   background: url("https://images.pexels.com/photos/691710/pexels-photo-691710.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
@@ -15,21 +16,37 @@
 }
 #intro {
   padding: 100px;
-  background: white;
-  opacity: 0.8;
+  background-color: rgba(255,255,255,0.7);  
+}
+#intro h4 {
+  margin-top: 50px;
+}
+.about-info .card {
+  padding: 5%;
+  margin: 25px 10px 25px 10px;
+}
+#headshot {
+  border: 5px solid #353a3f;
+  opacity: 0.95;
+  box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 6px 30px 5px rgba(0, 0, 0, 0.4);
 }
 
 /* Portfolio */
 .card {
   border-radius: 0.5rem;
   margin-bottom: 1rem;
-  color: white
+  color: white;
+  box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 6px 30px 5px rgba(0, 0, 0, 0.4);
 }
 .card:hover {
   color:black;
 }
 .card-body img {
   opacity: 0.7;
+  box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 6px 30px 5px rgba(0, 0, 0, 0.4);
 }
 .card-title {
   background:#353a3f;
@@ -41,5 +58,10 @@ img:hover {
 }
 .app-info {
   margin-top: -3rem;
-  background: white;
+}
+.portfolio {
+  background:#353a3f;
+  color: silver;
+  width: 100%;
+  padding: 15px;
 }

@@ -19,7 +19,7 @@ export default class Contact extends React.Component {
     return (
       <div>
         <Navbar color="dark" dark expand="md" id="contact">
-        <NavbarBrand href="/">Connect with me!</NavbarBrand>
+        <NavbarBrand href="/">Contact & Connect </NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
