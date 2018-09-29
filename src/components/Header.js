@@ -19,7 +19,7 @@ const Header = (props) => {
                             solve real world problems, as well as develop and entertain with creativity.</p>
                         </Col>
                         <Col xs="4">
-                            <img src={require('../assets/headshot.JPG')} height="200px" width="150px" id="headshot" alt="headshot" />
+                            <img src={require('../assets/headshot.JPG')} height="210px" width="170px" id="headshot" alt="headshot" />
                         </Col>
                     </Row>
                 </Container>
