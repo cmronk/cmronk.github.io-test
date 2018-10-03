@@ -91,7 +91,7 @@ const Cards = (props) => {
                         <Card>
                             <CardTitle><i className="fa fa-file-video-o" aria-hidden="true"></i> Giphy</CardTitle>
                             <CardBody>
-                                <img src={require('../assets/giphy.gif')} height="200px" width="250px" alt="giphy" />
+                                <img src={require('../assets/giphy1.gif')} height="200px" width="250px" alt="giphy" />
                                 <div className="app-info"><p>Fetch Gifs from the catergories or create your own via the Giphy API.</p></div>
                                 <ButtonGroup>
                                     <Button a href="https://cmronk.github.io/GifTastic/" target="_blank">View App</Button>
