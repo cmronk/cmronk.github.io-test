@@ -12,6 +12,7 @@
 .nav-link {
   color: #FFC914;
 }
+
 /* Contact */
 .navbar-brand, #intro h2, #portfolio {
   font-family: 'Dancing Script', cursive;
@@ -48,6 +49,7 @@
   box-shadow: 0 6px 30px 5px rgba(0, 0, 0, 0.4);
 }
 
+/* media query  */
 @media (max-width: 40em ){
   #headshot {
     padding: 0;
@@ -106,4 +108,3 @@
   width: 100%;
   padding: 15px;
 }
-
