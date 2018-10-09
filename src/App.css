@@ -12,7 +12,6 @@
 .nav-link {
   color: #FFC914;
 }
-
 /* Contact */
 .navbar-brand, #intro h2, #portfolio {
   font-family: 'Dancing Script', cursive;
@@ -71,6 +70,8 @@
   color: white;
   box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.2);
   box-shadow: 0 6px 30px 5px rgba(0, 0, 0, 0.4);
+}
+.card:hover {
 }
 .img:hover, .card:hover {
   background-color:silver;  
