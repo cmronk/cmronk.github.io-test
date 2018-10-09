@@ -11,7 +11,7 @@
     "react-scripts": "1.1.5",
     "reactstrap": "^6.4.0"
   },
-  "homepage": "https://cmronk.github.io/reactPortfolio/",
+  "homepage": "https://cmronk.github.io",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
