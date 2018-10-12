@@ -27,7 +27,7 @@ export default class Contact extends React.Component {
                 <NavLink href="https://github.com/cmronk"><i className="fa fa-github" aria-hidden="true"></i></NavLink>
                 <NavLink href="https://www.linkedin.com/in/christine-ronk-61244b152/"><i className="fa fa-linkedin" aria-hidden="true"></i></NavLink>
                 <NavLink href="https://stackexchange.com/users/12928161/christine-ronk"><i className="fa fa-stack-overflow" aria-hidden="true"></i></NavLink>
-                <NavLink href="https://twitter.com/MeanChristine4"><i className="fa fa-twitter" aria-hidden="true"></i></NavLink>
+                <NavLink href="https://twitter.com/christineRonk"><i className="fa fa-twitter" aria-hidden="true"></i></NavLink>
             </Nav>
         </Navbar>
       </div>
